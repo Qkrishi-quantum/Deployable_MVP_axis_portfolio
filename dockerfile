@@ -23,9 +23,8 @@ RUN pip install -r requirements.txt
 
 ENTRYPOINT ["streamlit", "run", "webapp.py", "--server.port=8501", "--server.address=0.0.0.0"]
 
-# streamlit run portfolio_dashboard.py --server.port=8501 --server.address=0.0.0.0
-
-# /home/sangram/Downloads/hello-main/Hello.py
+## to run a streamlit webapp on localhost before running docker. 
+# streamlit run webapp.py --server.port=8501 --server.address=0.0.0.0
 
 
 ## commands to run
